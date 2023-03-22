@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color:#d4e1e3;;
+    height: 14vh;
+    border-bottom: 3px white;
+}
+
+.logo img{
+    width: 95px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: 'Signika', sans-serif;
+}
+
+nav ul li a:hover{
+    text-decoration: underline black;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+    position: relative;
+    top: -40px;
+}
+
+nav ul{
+    margin: 20px;
+    display: contents;
+    
+}
+
+.logo{
+    display: contents;
+    margin: 20px;
+}
+
+nav form{
+    display: inline-block;
+    position: relative;
+    right: -390px;
+    top: -37px;
+}
+
+form input{
+    padding: 6px 100px 6px 6px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+form button{
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.login{
+    position: relative;
+    right: -400px;
+    top: -24px;
+}
+
+body{
+    background-color:#d4e1e3; ;
+}
+
+.container {
+    display: grid;
+    background-color: rgb(252, 253, 253);
+    grid-column-gap: 5px;
+    grid-template-columns: repeat(6, minmax(222px, 80px));
+    
+}
+
+.item {
+    
+    padding: 45px;
+    font-size: 30px;
+}
+
+.t1{
+    background-image: url("https://source.unsplash.com/300x300/?coffee,bestseller");
+    
+}
+
+.t2{
+    background-image: url("https://source.unsplash.com/300x300/?coffee,drinks");
+    
+}
+
+.t3{
+    background-image: url("https://source.unsplash.com/300x300/?coffee,food");
+    
+}
+
+.t4{
+    background-image: url("https://source.unsplash.com/300x300/?coffee,Merchandise");
+    
+}
+
+.t5{
+    background-image: url("https://source.unsplash.com/300x300/?coffee,homemade");
+   
+}
+
+.t6{
+    background-image: url("https://source.unsplash.com/300x300/?coffee,eat");
+    
+}
+
+.item a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover{
+    
+    opacity: 0.6;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 280px;
+}
+
+.c3{
+    display: flex;
+    flex-direction: column;
+}
+
+.book a{
+    display: inline-flex;
+    margin: 0px 60px;
+    padding: 3px 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: grey;
+}
+
+.book a:hover{
+    background-color: black;
+}
+
+.book a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: #b1b8db;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.card1 .info{
+    width: 331px;
+    padding: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info img{
+    position: relative;
+    left: -133px;
+    top: -5px;
+}
