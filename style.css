@@ -13,66 +13,55 @@ header{
     height: 90vh;
 }
 
-.logo img{
-    width: 100px;
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 120px auto auto;
 }
 
-nav ul li a{
+nav img{
+    margin: 20px;
+}
+
+nav .tt{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+nav ul a{
     text-decoration: none;
-    color:black;
-    font-family: 'Signika', sans-serif;
-}
-
-nav ul li a:hover{
-    text-decoration: underline black;
-}
-
-nav ul li{
-    display: inline;
+    color: white;
     padding: 20px;
-    position: relative;
-    top: -40px;
 }
 
-nav ul{
-    margin: 20px;
-    display: contents;
-    
+nav ul a:hover{
+    color: black;
 }
 
-.logo{
-    display: contents;
-    margin: 20px;
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav form{
-    display: inline-block;
-    position: relative;
-    right: -390px;
-    top: -37px;
-}
-
-form input{
-    padding: 6px 100px 6px 6px;
-    border-radius: 8px;
-    border: 2px solid black;
+.search input{
+    padding: 4px 100px 4px 5px;
+    border-radius: 5px;
     margin-right: 5px;
 }
 
-form button{
-    padding: 6px;
-    border-radius: 8px;
+.search button{
+    padding: 4px;
+    border-radius: 5px;
+    
 }
 
-form button:hover{
-    background-color: gray;
+.search button:hover{
+    background-color:#b1b8db;
 }
 
-.login{
-    position: relative;
-    right: -400px;
-    top: -24px;
-}
+
 
 .c1{
     width: 100%;
@@ -97,7 +86,7 @@ form button:hover{
 .cont2{
     display: flex;
     flex-direction: row;
-    padding-left: 55px;
+    justify-content: center;
 }
 
 .cont2 .card{
@@ -125,7 +114,8 @@ form button:hover{
 .cont3{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card1{
@@ -145,7 +135,7 @@ form button:hover{
 }
 
 .card1 .text{
-    padding: 20px 0px 0px 20px;
+    padding: 20px 15px 0px 20px;
 }
 
 .card1 .text button{

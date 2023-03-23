@@ -8,67 +8,62 @@
 header{
     width: 100%;
     background-color:#d4e1e3;;
-    height: 14vh;
+    height: 19vh;
     border-bottom: 3px white;
 }
 
-.logo img{
-    width: 95px;
+
+nav{
     
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 120px auto auto;
 }
 
-nav ul li a{
+nav img{
+    margin: 20px;
+}
+
+nav .tt{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+nav ul a{
     text-decoration: none;
-    color: rgb(5, 5, 5);
-    font-family: 'Signika', sans-serif;
-}
-
-nav ul li a:hover{
-    text-decoration: underline black;
-}
-
-nav ul li{
-    display: inline;
+    color: white;
     padding: 20px;
-    position: relative;
-    top: -40px;
 }
 
-nav ul{
-    margin: 20px;
-    display: contents;
-    
+nav ul a:hover{
+    color: black;
 }
 
-.logo{
-    display: contents;
-    margin: 20px;
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav form{
-    display: inline-block;
-    position: relative;
-    right: -390px;
-    top: -37px;
-}
-
-form input{
-    padding: 6px 100px 6px 6px;
-    border-radius: 8px;
-    border: 2px solid black;
+.search input{
+    padding: 4px 100px 4px 5px;
+    border-radius: 5px;
     margin-right: 5px;
 }
 
-form button{
-    padding: 6px;
-    border-radius: 8px;
+.search button{
+    padding: 4px;
+    border-radius: 5px;
+    
 }
 
-.login{
-    position: relative;
-    right: -400px;
-    top: -24px;
+.search button:hover{
+    background-color:#b1b8db;
 }
+
+
+
 
 body{
     background-color:#d4e1e3; ;
