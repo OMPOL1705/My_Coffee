@@ -11,6 +11,8 @@ header{
     width: 100%;
     background-image: url("https://source.unsplash.com/1345x600/?coffee,ecommerce");
     height: 90vh;
+    overflow: hidden;
+   
 }
 
 nav{
@@ -46,7 +48,8 @@ nav ul a:hover{
 }
 
 .search input{
-    padding: 4px 100px 4px 5px;
+    padding: 4px;
+    width: 30vw;
     border-radius: 5px;
     margin-right: 5px;
 }
@@ -90,7 +93,7 @@ nav ul a:hover{
 }
 
 .cont2 .card{
-    padding: 40px;
+    padding: 2vw;
 }
 
 .cont2 .card a{
