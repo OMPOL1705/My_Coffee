@@ -1,4 +1,5 @@
 @media screen and (max-width:1000px) {
+
     .card1{
         flex-direction: column;
     align-items: center;
@@ -15,5 +16,9 @@
 
     .container{
         overflow:scroll;
+    }
+
+    nav{
+        grid-auto-flow: row;
     }
 }
